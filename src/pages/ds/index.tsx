@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
-import CheckIcon from "../../assets/svg/outline/action/check.svg";
 import NextLogo from '../../../public/next.svg'
+import CheckIcon from '../../../src/assets/svg/outline/action/check.svg';
+
 export default function Home() {
   return (
     <>
@@ -15,21 +16,15 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div>
-          <Button>Button</Button>
+          <Button>
+            Button
+          </Button>
           <Image
-            className={styles.logo}
-            src={NextLogo}
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <Image
-            className={styles.logo}
             src={CheckIcon}
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            alt="Vercel Logo"
+            className={styles.vercelLogo}
+            width={24}
+            height={24}
             priority
           />
         </div>

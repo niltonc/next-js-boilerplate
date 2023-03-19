@@ -23,8 +23,8 @@ export const ButtonWrapper = styled.button`
       background: #7AADFF;
     }
     &:focus{
-    box-shadow: 0 0 0 2px rgba(122, 173, 255, 0.1);
-    border-inline-end-width: 1px;
+    box-shadow: 0 0 0 3px rgba(122, 173, 255, 0.1);
+    /* border-inline-end-width: 1px; */
     outline: 0;
     }
 `;
