@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface IButtonWrapper { }
+interface IButtonParams { }
 
 export const ButtonWrapper = styled.button`
     font-style: normal;
@@ -14,16 +14,16 @@ export const ButtonWrapper = styled.button`
     padding: 12px 16px;
     width: 384px;
     height: 48px;
-    background: #7B86FF;
+    background: #A347FF;
     border-radius: 4px;
     border-width: 0px;
     color: #FFFFFF;
     cursor: pointer;
     &:hover {
-      background: #A3CBFF;
-  }
-  &:focus{
-    box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+      background: #7AADFF;
+    }
+    &:focus{
+    box-shadow: 0 0 0 2px rgba(122, 173, 255, 0.1);
     border-inline-end-width: 1px;
     outline: 0;
     }

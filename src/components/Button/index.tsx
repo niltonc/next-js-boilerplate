@@ -4,7 +4,7 @@ import { ButtonWrapper } from "./styles";
 
 interface IButton {
   onClick?: () => void;
-  disabled?: boolean;
+  disabled?: boolean | undefined;
   type?: "button" | "submit" | "reset" | undefined;
   children?: any;
 }
