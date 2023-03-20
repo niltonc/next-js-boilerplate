@@ -1,8 +1,8 @@
-import Head from 'next/head'
+import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
-import NextLogo from '../../../public/next.svg'
+import CheckIcon from '../../assets/svg/outline/action/plus.svg'
 
 export default function Home() {
   return (
@@ -12,12 +12,11 @@ export default function Home() {
           Button
         </Button>
         <Image
-          src={NextLogo}
+          src={CheckIcon}
           alt="Vercel Logo"
           className={styles.vercelLogo}
           width={100}
           height={100}
-          priority
         />
       </div>
     </main>
