@@ -38,7 +38,7 @@ export const InputField = styled.input<ITextInputParams>`
 `;
 export const EyeIcon = styled.div`
   position: absolute;
-  top: 69%;
+  top: 68%;
   right: 10px;
   transform: translateY(-50%);
   cursor: pointer;

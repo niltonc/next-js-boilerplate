@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Button from '@/components/Button'
 import TextInput from '@/components/TextInput'
+import Dropdown from '@/components/Dropdwon'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           height="48px"
           fontSize="16px"
         />
+        <Dropdown />
       </div>
     </main>
   )
